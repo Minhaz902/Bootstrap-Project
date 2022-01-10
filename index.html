@@ -7,13 +7,15 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <!----- External CSS -->
+    <link rel="stylesheet" href="index.css">
     <title>Project Bootstrap|Powered by Ninestars</title>
   </head>
   <body>
+    <!---- Navbar Section start-->
     <div class="fixed-top">
       <nav class="navbar nabar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
+          <div class="container-fluid text-muted">
               <a href="index.html" class="navbar-brand">Ninestars</a>
               <button class="navbar-toggler active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -39,12 +41,122 @@
               </div>
           </div>
       </nav></div>
-      <div class="container">
-        <h1>Better digital experience with Ninestars</h1>
-        <p class="lead text-muted">We are team of talented designers making websites with Bootstrap</p>
-        <button class="btn btn-danger rounded">Get Started</button>
-        <img src="images/hero-img.svg" alt="hero-img">
+      <!---- Navbar Section end-->
+      <!---- Body Section start-->
+      <section>
+        <div class="grid" style="--bs-columns:2;">
+          <div class="g-col">
+            <div class="text-center"><img src="images/hero-img.svg" alt="about-img"></div>
+          </div>
+          <div class="g-col">
+            <h5 class="card-title">Better digital experience with Ninestars</h5>
+              <p class="lead text-muted">We are team of talented designers making websites with Bootstrap</p>
+            <button class="btn btn-danger rounded">Get Started</button>
+          </div>
+        </div>
+      <!---- Body Section end-->
+      <!---- About Section start-->
+      <section>
+        <div class="grid" style="--bs-columns:2;">
+          <div class="g-col">
+            <img src="images/about-img.svg" alt="about-img">
+          </div>
+          <div class="g-col">
+            <h1>Voluptatem dignissimos provident quasi</h1>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut hic tempora autem alias excepturi consectetur sunt reprehenderit at laudantium, quos nihil expedita, animi magnam ipsam officiis nesciunt officia numquam possimus!</p>
+          </div>
+        </div>
+      </section>
+      <!---- about Section end-->
+      <!---- Services Section start-->
+      <section>
+        <div class="bg-light">
+          <div class="text-center">
+            <h2><u class="text-dark text-muted">Services</u></h2>
+            <h3>Check out the great services we offer</h3>
+            <div style="justify-content: space-evenly; display:flex;">
+              <div class="card" style="width: 18rem;">
+                <img src="icon/dribbble-brands.svg" alt="dribble" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Lorem Ipsum</h5>
+                  <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="icon/file-regular.svg" alt="file" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Sed ut perspiciatis</h5>
+                  <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="icon/tachometer-alt-solid.svg" alt="tachometer" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Magni Dolores</h5>
+                  <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="icon/globe-solid.svg" alt="world" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Nemo Enim</h5>
+                  <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---- Services Section end-->
+
+      <!--- Newsletter Form-->
+      <div class="text-center bg-light">
+        <h1>Join Our Newsletter</h1>
+        <p class="text-muted">Enter Your email below to subcribe</p>
+        <form>
+          <span><input type="email"></span><input type="submit" class="btn btn-danger" value="Subscribe">
+        </form>
       </div>
+      <!--- Newsletter Form-->
+      <!---Footer Section Start-->
+      <footer>
+       <section class="bg-light">
+        <div style="justify-content: space-evenly; display:flex;">
+          <div>
+            <h4>Ninestars</h4>
+            <p>A108 Adam Street<br>New York,NY 535022<br>United States</p>
+          </div>
+          <div>
+            <h3>Useful Links</h3>
+            <ul style="list-style-type: none;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Term of Services</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Our Services</h3>
+            <ul style="list-style-type: none;">
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Product Management</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Our Social Networks</h3>
+            <p>Join us by clicking below links</p>
+            <ul style="list-style-type: none;">
+              <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Linkendin</a></li>
+            </ul>
+          </div>
+         </div>
+       </section>
+      </footer>
+      <!---Footer Section end-->
   </body>
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

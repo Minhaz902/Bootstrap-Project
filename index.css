@@ -1,0 +1,6 @@
+footer li a{
+    text-decoration: none;
+}
+footer li a:hover{
+    color: orangered;
+}
