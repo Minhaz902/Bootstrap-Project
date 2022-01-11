@@ -2,5 +2,26 @@ footer li a{
     text-decoration: none;
 }
 footer li a:hover{
-    color: orangered;
+    color: orangered
+}
+.common::after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    background: orange;
+    left: 48%;
+}
+#portfolio img:hover{
+    opacity: 0.5;
+}
+#portfolio div.card{
+    display:inline;
+}
+#social_link img{
+    font-size: 1.4rem;
+    height: 40px;
+    line-height: 40px;
+    width:40px;
 }

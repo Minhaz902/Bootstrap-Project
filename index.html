@@ -15,18 +15,18 @@
     <!---- Navbar Section start-->
     <div class="fixed-top">
       <nav class="navbar nabar-expand-lg navbar-light bg-light">
-          <div class="container-fluid text-muted">
-              <a href="index.html" class="navbar-brand">Ninestars</a>
-              <button class="navbar-toggler active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="container-fluid">
+              <div class="text-muted"><a href="index.html" class="navbar-brand">Ninestars</a></div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item"><a href="index.html" aria-current="page" class="nav-link">Home</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+                      <li class="nav-item"><a href="index.html" aria-current="page" class="nav-link active">Home</a></li>
+                      <li class="nav-item"><a href="#" aria-current="page" class="nav-link">About Us</a></li>
+                      <li class="nav-item"><a href="#" aria-current="page" class="nav-link">Services</a></li>
+                      <li class="nav-item"><a href="#" aria-current="page" class="nav-link">Portfolio</a></li>
+                      <li class="nav-item"><a href="#" aria-current="page" class="nav-link">Team</a></li>
                       <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbar-Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">DropDown</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a href="#" class="dropdown-item">Drop Down 1</a></li>
@@ -35,7 +35,7 @@
                             <li><a href="#" class="dropdown-item">Drop Down 4</a></li>
                         </ul>
                     </li>
-                      <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                      <li class="nav-item"><a href="#" aria-current="page" class="nav-link">Contact</a></li>
                       <button type="button" class="btn btn-danger rounded-pill">Get Started</button>
                   </ul>
               </div>
@@ -72,32 +72,32 @@
       <section>
         <div class="bg-light">
           <div class="text-center">
-            <h2><u class="text-dark text-muted">Services</u></h2>
-            <h3>Check out the great services we offer</h3>
+            <h2 class="text-muted"><a>Services</a></h2>
+            <h3 class="common">Check out the great services we offer</h3>
             <div class="d-flex justify-content-evenly">
               <div class="card" style="width: 18rem;">
-                <img src="icon/dribbble-brands.svg" alt="dribble" class="card-img-top">
+                <img src="icon/dribbble.svg" alt="dribble" class="card-img-top">
                 <div class="card-body text-center">
                   <h5 class="card-title">Lorem Ipsum</h5>
                   <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
                 </div>
               </div>
               <div class="card" style="width: 18rem;">
-                <img src="icon/file-regular.svg" alt="file" class="card-img-top">
+                <img src="icon/file-icon.jpg" alt="file" class="card-img-top">
                 <div class="card-body text-center">
                   <h5 class="card-title">Sed ut perspiciatis</h5>
                   <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
                 </div>
               </div>
               <div class="card" style="width: 18rem;">
-                <img src="icon/tachometer-alt-solid.svg" alt="tachometer" class="card-img-top">
+                <img src="icon/speedometer-icon.jpg" alt="tachometer" class="card-img-top">
                 <div class="card-body text-center">
                   <h5 class="card-title">Magni Dolores</h5>
                   <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
                 </div>
               </div>
               <div class="card" style="width: 18rem;">
-                <img src="icon/globe-solid.svg" alt="world" class="card-img-top">
+                <img src="icon/globe.png" alt="world" class="card-img-top">
                 <div class="card-body text-center">
                   <h5 class="card-title">Nemo Enim</h5>
                   <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
@@ -108,6 +108,42 @@
         </div>
       </section>
       <!---- Services Section end-->
+      <!---- Portfolio Section start-->
+      <section>
+        <div class="bg-light text-center" id="portfolio">
+          <h2 class="text-muted"><a>Portfolio</a></h2>
+          <h3 class="common">Check out our beautifull portfolio</h3>
+            <div class="card" style="width: 18rem;">
+              <img src="images/portfolio-1.jpg" class="img-fluid" alt="image-1" class="card-img-top">
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="images/portfolio-2.jpg"class="img-fluid" alt="image-2" class="card-img-top">
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="images/portfolio-3.jpg"class="img-fluid" alt="image-3" class="card-img-top">
+                  </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="images/portfolio-4.jpg"class="img-fluid" alt="image-4" class="card-img-top">
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="images/portfolio-5.jpg"class="img-fluid" alt="image-5" class="card-img-top">
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="images/portfolio-6.jpg"class="img-fluid" alt="image-6" class="card-img-top">
+                 </div>
+                 <div class="card" style="width: 18rem;">
+                    <img src="images/portfolio-7.jpg"class="img-fluid" alt="image-7" class="card-img-top">
+                 </div>
+                  <div class="card" style="width: 18rem;">
+                   <img src="images/portfolio-8.jpg"class="img-fluid" alt="image-8" class="card-img-top">
+                 </div>
+                 <div class="card" style="width: 18rem;">
+                   <img src="images/portfolio-9.jpg"class="img-fluid" alt="image-9" class="card-img-top">
+                  </div>      
+        </div>
+      </section>
+
+      <!---- Portfolio Section end-->
 
       <!--- Newsletter Form-->
       <div class="text-center bg-light">
@@ -129,28 +165,29 @@
           <div>
             <h3>Useful Links</h3>
             <ul style="list-style-type: none;">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Term of Services</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="index.html">>Home</a></li>
+            <li><a href="#">>About Us</a></li>
+            <li><a href="#">>Services</a></li>
+            <li><a href="#">>Term of Services</a></li>
+            <li><a href="#">>Privacy policy</a></li>
             </ul>
           </div>
           <div>
             <h3>Our Services</h3>
             <ul style="list-style-type: none;">
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
+              <li><a href="#">>Web Design</a></li>
+              <li><a href="#">>Web Development</a></li>
+              <li><a href="#">>Product Management</a></li>
             </ul>
           </div>
-          <div>
+          <div id="social_link">
             <h3>Our Social Networks</h3>
             <p>Join us by clicking below links</p>
             <ul style="list-style-type: none;">
-              <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Linkendin</a></li>
+              <li><a href="#"><img src="images/fb-logo.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+            <li><a href="#"><img src="images/linkedin.png" alt="linkedin"></a></li>
+            <li><a href="#"><img src="images/skype.png" alt="skype"></a></li>
             </ul>
           </div>
          </div>
